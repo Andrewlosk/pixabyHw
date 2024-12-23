@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        #loadMore{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            border: none;
+            width: 100px;
+            height: 70px;
+            background-color: bisque;
+            color: cadetblue;
+            border-radius: 10px;
+            font-weight: 600;
+
+        }
+        .container{
+            margin: 0 auto;
+            width: 1280px;
+        }
+        #imgList{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Images</h1>
+        <ul id="imgList"></ul>
+    
+    
+        <button id="loadMore">load more</button>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
